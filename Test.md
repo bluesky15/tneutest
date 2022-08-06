@@ -19,7 +19,7 @@ i.e. a particular BuildContext is associated with only one widget.
 ### **1 Refactor the code below so that the children will wrap to the next line when the display width is small for them to fit.**
 
 
-```
+```dart:
 class LongStringWidget extends StatelessWidget {
   const LongStringWidget({Key? key}) : super(key: key);
 
@@ -43,7 +43,7 @@ class LongStringWidget extends StatelessWidget {
     );
   }
 }
-```dart 
+```
 
 ![alt code1](code1.png)
 
