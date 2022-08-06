@@ -1,15 +1,15 @@
-#1 Can we nest the Scaffold widget? Why or Why not?
+### **1 Can we nest the Scaffold widget? Why or Why not?**
 We should not nest the scaffold because for each page the scoffold should be one.
 We can use it though but it can have some side effects like the keyboard overlap.
 
-#2 What are the different ways we can create a custom widget ?
+### **2 What are the different ways we can create a custom widget ?**
 1. we can create custom widget by combining or using the simpler widgets 
 2. we can use the CustomPanter to draw and create the widget.
 3. we can use the RenderObject which is used internally to create the widget.
 
-#3 How can I access platform(iOS or Android) specific code from Flutter?
-We can create Method channel to communicate to the native platform specific code 
-and get the result from the method return value.
+### **3 How can I access platform(iOS or Android) specific code from Flutter?**
+  We can create Method channel to communicate to the native platform specific code 
+  and get the result from the method return value.
 
 #4 What is BuildContext? What is its importance?
 The BuildContext is used to locate a particular widget in a widget tree and every widget has its own BuidContext 
