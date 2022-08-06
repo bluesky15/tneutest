@@ -19,7 +19,8 @@ i.e. a particular BuildContext is associated with only one widget.
 ### **1 Refactor the code below so that the children will wrap to the next line when the display width is small for them to fit.**
 
 
-`code` class LongStringWidget extends StatelessWidget {
+```
+class LongStringWidget extends StatelessWidget {
   const LongStringWidget({Key? key}) : super(key: key);
 
   @override
@@ -41,7 +42,9 @@ i.e. a particular BuildContext is associated with only one widget.
       ],
     );
   }
-}`code`
+}
+```dart 
+
 ![alt code1](code1.png)
 
 ### **2  Identify the problem in the following code block and correct it.**
