@@ -11,15 +11,15 @@ We can use it though but it can have some side effects like the keyboard overlap
   We can create Method channel to communicate to the native platform specific code 
   and get the result from the method return value.
 
-#4 What is BuildContext? What is its importance?
+### **4 What is BuildContext? What is its importance?**
 The BuildContext is used to locate a particular widget in a widget tree and every widget has its own BuidContext 
 i.e. a particular BuildContext is associated with only one widget.
 
-##Coding
-#1 Refactor the code below so that the children will wrap to the next line when
-the display width is small for them to fit.
+## **Coding**
+### **1 Refactor the code below so that the children will wrap to the next line when the display width is small for them to fit.**
 
-class LongStringWidget extends StatelessWidget {
+
+`class LongStringWidget extends StatelessWidget {
   const LongStringWidget({Key? key}) : super(key: key);
 
   @override
@@ -41,15 +41,18 @@ class LongStringWidget extends StatelessWidget {
       ],
     );
   }
-}
-//add image
+}`
+![alt code1](code1.png)
 
-#2  Identify the problem in the following code block and correct it.
+### **2  Identify the problem in the following code block and correct it.**
 
 Code is working fine , did not see anyting wrong.
 
-#3 In the below code, list1 declared with var, list2 with final and list3 with const.
-What is the difference between these lists? Will the last two lines compile?
+![alt code2](code2.png)
+
+### **3 In the below code, list1 declared with var, list2 with final and list3 with const.What is the difference between these lists? Will the last two lines compile?**
+
+![alt code3](code3.png)
 
 last line will not work,it will give runtime error as - "Cannot modify an unmodifiable list"
 1. var list - its mutable type with all its elements are also immutable
